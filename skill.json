@@ -1,0 +1,24 @@
+{
+  "name": "genpark-vercel-ai-sdk-stream-helper-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Vercel AI SDK text stream chunk helper.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "vercel",
+    "streamText",
+    "ai-sdk"
+  ],
+  "inputs": {
+    "stream_chunks": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "joined_text": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
